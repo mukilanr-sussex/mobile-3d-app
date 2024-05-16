@@ -242,11 +242,11 @@ const GoingBeyondContent = () => {
             </Box>
             <AccordionDetails>
               <Typography color="text.primary">
-                Axios was employed in this application to handle AJAX requests,
-                facilitating the retrieval of JSON responses from the backend
-                server. This library was chosen for its promise-based structure
-                that simplifies asynchronous request handling, enhancing the
-                efficiency and readability of the frontend code.
+                Axios-HTTP was employed in this application to handle AJAX
+                requests, facilitating the retrieval of JSON responses from the
+                backend server. This library was chosen for its promise-based
+                structure that simplifies asynchronous request handling,
+                enhancing the efficiency and readability of the frontend code.
               </Typography>
             </AccordionDetails>
           </Box>
