@@ -63,7 +63,7 @@ const HomePageBanner = () => {
           backgroundRepeat: "no-repeat",
           backgroundSize: "cover",
           backgroundPosition: "center center",
-          backgroundImage: MainImage,
+          backgroundImage: `url(${MainImage})`,
           // filter: theme.palette.mode === "dark" ? "brightness(0.7)" : "none",
         }}
       ></Box>
