@@ -303,7 +303,7 @@ const GoingBeyondContent = () => {
             <AccordionDetails>
               <Typography color="text.primary">
                 To integrate React JS with CodeIgniter effectively, .htaccess
-                files were utilized to configure server settings appropriately.
+                file is utilized to configure server settings appropriately.
                 These configurations enabled seamless navigation and interaction
                 between the frontend and backend, ensuring that URL routing and
                 API requests were handled correctly, essential for the project's
