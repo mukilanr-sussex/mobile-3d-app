@@ -280,6 +280,37 @@ const GoingBeyondContent = () => {
               </Typography>
             </AccordionDetails>
           </Box>
+          <Box
+            component={Accordion}
+            padding={1}
+            marginBottom={2}
+            sx={{
+              "&::before": {
+                display: "none",
+              },
+            }}
+          >
+            <Box
+              component={AccordionSummary}
+              expandIcon={<ExpandMoreIcon />}
+              aria-controls="panel1a-content"
+            >
+              <Typography fontWeight={600}>
+                Utilizing .htaccess file for React JS and CodeIgniter
+                Integration
+              </Typography>
+            </Box>
+            <AccordionDetails>
+              <Typography color="text.primary">
+                To integrate React JS with CodeIgniter effectively, .htaccess
+                files were utilized to configure server settings appropriately.
+                These configurations enabled seamless navigation and interaction
+                between the frontend and backend, ensuring that URL routing and
+                API requests were handled correctly, essential for the project's
+                smooth operation.
+              </Typography>
+            </AccordionDetails>
+          </Box>
         </Box>
       </Box>
     </Box>
