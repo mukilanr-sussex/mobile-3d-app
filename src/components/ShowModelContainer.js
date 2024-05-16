@@ -25,7 +25,7 @@ const Loader = () => {
   return (
     <Html center>
       <Box sx={{ position: "relative", display: "inline-flex" }}>
-        <CircularProgress size={100} variant="determinate" value={progress} />
+        <CircularProgress size={100} />
         <Box
           sx={{
             top: 0,
